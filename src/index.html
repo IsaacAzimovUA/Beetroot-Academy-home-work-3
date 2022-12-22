@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Puma</title>
+</head>
+
+<body>
+    <!-- <h1>Puma</h1> -->
+    <canvas class="preloader"></canvas>
+    <header class="header">
+        <div class="wrapper">
+            <div class="menu">
+                <div class="logo">
+                    <svg class="logo__icon">
+                        <use xlink:href="./img/svg/sprite.svg#logo"></use>
+                    </svg>
+                </div>
+                <button class="menu-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                    <span class="menu-toggle__wrapper">
+                        <span class="toggle-wrapper__inner"></span>
+                    </span>
+                </button>
+                <ul class="nav primary-navigation" data-state="closed" id="primary-navigation">
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">ABOUT US</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#gallery" class="nav__link">GALLERY</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#testimonials" class="nav__link">TESTIMONIALS</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contacts" class="nav__link">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="banner">
+                <div class="content content--text">
+                    <h2 class="title title--2">Life is better in running <span class="title--bold">shoes</span>.</h2>
+                    <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum amet architecto
+                        magni deserunt aut, illo consectetur officia.</p>
+                </div>
+                <div class="content--media">
+                    <canvas class="webgl"></canvas>
+                    <button class="webgl__button"></button>
+                </div>
+            </div>
+            <div class="buymenu">
+                <div class="buymenu__item">
+                    <label class="buymenu__label" for="person">Person</label>
+                    <select class="buymenu__select" name="person" id="person">
+                        <option value="men">men</option>
+                        <option value="women">women</option>
+                        <option value="kids">kids</option>
+                    </select>
+                </div>
+                <div class="buymenu__item">
+                    <label class="buymenu__label" for="size">Size</label>
+                    <select class="buymenu__select" name="size" id="size">
+                        <option value="XS">XS</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                </div>
+                <div class="buymenu__item">
+                    <label class="buymenu__label" for="price">Price</label>
+                    <select class="buymenu__select" name="price" id="price">
+                        <option value="&pref_minPrice=50&pref_maxPrice=100">$50-$100</option>
+                        <option value="&pref_minPrice=100&pref_maxPrice=150">$100-$150</option>
+                        <option value="&pref_minPrice=100&pref_maxPrice=150">$150-$200</option>
+                        <option value="">$200 & up</option>
+                    </select>
+                </div>
+                <button class="button" id="btnbuy">Buy now</button>
+            </div>
+        </div>
+    </header>
+    <main class="main" id="about">
+        <div class="wrapper">
+            <div class="section section--row">
+                <div class="content content--text">
+                    <h5 class="title title--5">VIDEO</h5>
+                    <h3 class="title title--3">Desire the feel of satisfaction.</h3>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas leo ultrices
+                        commauris risus.</p>
+                </div>
+                <div class="video">
+                    <iframe class="video__item" src="https://www.youtube.com/embed/TFXoTc3dvco?autoplay=1&mute=1&controls=0&loop=1" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="section" id="feature">
+                <h5 class="title title--5 title--center">FEATURE</h5>
+                <h3 class="title title--3 title--center">We have best feature in Shoes</h3>
+                <div class="feature">
+                    <div class="feature__item">
+                        <div class="feature__img">
+                            <img src="./img/feature/img-quality.png" alt="graphic icon of a gear">
+                        </div>
+                        <h4 class="title title--4">Quality</h4>
+                        <p class="text feature__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                            cupiditate in reiciendis laudantium ratione. Tempora suscipit perferendis provident nihil
+                            ipsam enim alias, labore iusto atque quia debitis odio natus a error quos sit, quaerat
+                            itaque, ut voluptate pariatur. Illum, consequuntur voluptates! Iure odio sunt voluptate
+                            itaque earum nemo asperiores, eligendi velit tempora nesciunt minus. Quas laboriosam,
+                            delectus necessitatibus cumque at impedit, doloremque esse fugit, praesentium maxime
+                            voluptate! Quasi.</p>
+                        <a href="#" class="feature__link">Read more</a>
+                    </div>
+                    <div class="feature__item">
+                        <div class="feature__img">
+                            <img src="./img/feature/img_flexible.png" alt="arrows">
+                        </div>
+                        <h4 class="title title--4">Flexible</h4>
+                        <p class="text feature__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                            cupiditate in reiciendis laudantium ratione. Tempora suscipit perferendis provident nihil
+                            ipsam enim alias, labore iusto atque quia debitis odio natus a error quos sit, quaerat
+                            itaque, ut voluptate pariatur. Illum, consequuntur voluptates! Iure odio sunt voluptate
+                            itaque earum nemo asperiores, eligendi velit tempora nesciunt minus. Quas laboriosam,
+                            delectus necessitatibus cumque at impedit, doloremque esse fugit, praesentium maxime
+                            voluptate! Quasi.</p>
+                        <a href="#" class="feature__link">Read more</a>
+                    </div>
+                    <div class="feature__item">
+                        <div class="feature__img">
+                            <img src="./img/feature/img_360.png" alt="stopwatch">
+                        </div>
+                        <h4 class="title title--4">Long Lasting</h4>
+                        <p class="text feature__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                            cupiditate in reiciendis laudantium ratione. Tempora suscipit perferendis provident nihil
+                            ipsam enim alias, labore iusto atque quia debitis odio natus a error quos sit, quaerat
+                            itaque, ut voluptate pariatur. Illum, consequuntur voluptates! Iure odio sunt voluptate
+                            itaque earum nemo asperiores, eligendi velit tempora nesciunt minus. Quas laboriosam,
+                            delectus necessitatibus cumque at impedit, doloremque esse fugit, praesentium maxime
+                            voluptate! Quasi.</p>
+                        <a href="#" class="feature__link">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="gallery">
+                <h5 class="title title--5">GALLERY</h5>
+                <h3 class="title title--3">40+ YEARS’ EXPERIENCE</h3>
+                <div class="slick-filter">
+                    <p class="text">Categories:</p>
+                    <ul class="filter">
+                        <li class="filter__item" data-filter="">All</li>
+                        <li class="filter__item" data-filter="Male">Male</li>
+                        <li class="filter__item" data-filter="Female">Female</li>
+                        <li class="filter__item" data-filter="Kids">Kids</li>
+                    </ul>
+                </div>
+                <div class="slick-gallery">
+                </div>
+            </div>
+
+            <div class="section" id="testimonials">
+                <h3 class="title title--3 title--center">Testimonials</h3>
+                <div class="container">
+                    <div class="content content--media">
+                        <img src="./img/img_feet.png" alt="" class="content__img">
+                    </div>
+                    <div class="slick-feedback">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section section--row section--form">
+                <div class="content content--media">
+                    <img src="./img/img_puma.png" alt="logo" class="content__img">
+                </div>
+                <div class="content content--form">
+                    <h3 class="title title--3">Sign up to our Newsletter</h3>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu sagittis, Atiam lorem
+                        sed justo amet viverra in a.</p>
+                    <form action="#" class="form">
+                        <input type="email" placeholder="Enter your email address" class="form__input" required>
+                        <button class="button button--form">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer" id="contacts">
+        <div class="wrapper">
+            <div class="section section--footer">
+                <div class="content content--footer">
+                    <div class="logo">
+                        <svg class="logo__icon">
+                            <use xlink:href="./img/svg/sprite.svg#logo"></use>
+                        </svg>
+                    </div>
+                    <ul class="details">
+                        <li class="details__item">
+                            <address>10 New Town Street, V2 5NW,<br> Newstate, USA.</address>
+                        </li>
+                        <li class="details__item">
+                            <a class="details__link"
+                                href="mailto:shovasatkhira88@gmail.com">shovasatkhira88@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="icon-set">
+                        <li class="icon-set__item">
+                            <a href="https://www.instagram.com/puma/" target="_blank" class="icon-set__link">
+                                <svg class="icon-set__svg">
+                                    <use xlink:href="./img/svg/sprite.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="icon-set__item ">
+                            <a href="https://www.facebook.com/PUMA/" target="_blank" class="icon-set__link">
+                                <svg class="icon-set__svg">
+                                    <use xlink:href="./img/svg/sprite.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="icon-set__item ">
+                            <a href="https://twitter.com/puma" target="_blank" class="icon-set__link">
+                                <svg class="icon-set__svg">
+                                    <use xlink:href="./img/svg/sprite.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="icon-set__item ">
+                            <a href="https://www.linkedin.com/company/puma?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank" class="icon-set__link">
+                                <svg class="icon-set__svg">
+                                    <use xlink:href="./img/svg/sprite.svg#linkedin"></use>
+                                </svg>
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="content content--footer">
+                    <h6 class="title title--6">Our services</h6>
+                    <ul class="details">
+                        <li class="details__item">
+                            <a href="#about" class="details__link">About us</a>
+                        </li>
+                        <li class="details__item">
+                            <a href="#feature" class="details__link">Feature</a>
+                        </li>
+                        <li class="details__item">
+                            <a href="#gallery" class="details__link">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content content--footer">
+                    <h6 class="title title--6">Support</h6>
+                    <ul class="details">
+                        <li class="details__item">
+                            <a href="#" class="details__link">Privacy & Policy</a>
+                        </li>
+                        <li class="details__item">
+                            <a href="#" class="details__link">Terms & Condition</a>
+                        </li>
+                        <li class="details__item">
+                            <a href="#" class="details__link">Support System</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content content--footer">
+                    <h6 class="title title--6">Contact us</h6>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipiscin.</p>
+                        <form action="#" class="form">
+                            <input type="email" placeholder="Email address" class="form__input" required>
+                            <button class="button button--form">Send</button>
+                        </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p class="text text--copyright">Copyright <span id="current-year"></span> The PUMA All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="./js/app.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "img": "./img/feedback/avatar_1.webp",
+        "title": "Their services was best and friendly",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus tempor id faucibus quam lobortis.",
+        "name": "Abram Korsgaard",
+        "occupation": "Athletic"
+    },
+    {
+        "id": 2,
+        "img": "./img/feedback/avatar_2.webp",
+        "title": "Their services was best and friendly",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus tempor id faucibus quam lobortis.",
+        "name": "Abram Korsgaard",
+        "occupation": "Athletic"
+    },
+    {
+        "id": 3,
+        "img": "./img/feedback/avatar_3.webp",
+        "title": "Their services was best and friendly",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus tempor id faucibus quam lobortis.",
+        "name": "Abram Korsgaard",
+        "occupation": "Athletic"
+    }
+]

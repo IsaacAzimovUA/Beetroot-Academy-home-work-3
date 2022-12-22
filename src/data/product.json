@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "img": "./img/gallery_slick/item_1.webp",
+    "name": "MB.02 Phenom",
+    "price": "130",
+    "sex": "Male",
+    "link": "https://us.puma.com/us/en/pd/mb-02-phenom-basketball-shoes/377644?swatch=01"
+  },
+  {
+    "id": 2,
+    "img": "./img/gallery_slick/item_2.webp",
+    "name": "Deviate NITRO 2",
+    "price": "170",
+    "sex": "Male",
+    "link": "https://us.puma.com/us/en/pd/cpuma-x-first-mile-deviate-nitro-2-mens-running-shoes/377567?swatch=01"
+  },
+  {
+    "id": 3,
+    "img": "./img/gallery_slick/item_3.webp",
+    "name": "Suede Classic XXI",
+    "price": "70",
+    "sex": "Male",
+    "link": "https://us.puma.com/us/en/pd/suede-classic-xxi-mens-sneakers/374915?swatch=01"
+  },
+  {
+    "id": 4,
+    "img": "./img/gallery_slick/item_4.webp",
+    "name": "Smash v2 Leather",
+    "price": "55",
+    "sex": "Female",
+    "link": "ttps://us.puma.com/us/en/pd/smash-v2-leather-womens-sneakers/365208?swatch=04"
+  },
+  {
+    "id": 5,
+    "img": "./img/gallery_slick/item_5.webp",
+    "name": "Mayzer",
+    "price": "90",
+    "sex": "Female",
+    "link": "https://us.puma.com/us/en/pd/mayze-womens-sneakers/380784?swatch=01"
+  },
+  {
+    "id": 6,
+    "img": "./img/gallery_slick/item_6.webp",
+    "name": "Suede Classic XXI",
+    "price": "70",
+    "sex": "Female",
+    "link": "https://us.puma.com/us/en/pd/suede-classic-xxi-womens-sneakers/381410?swatch=01"
+  },
+  {
+    "id": 7,
+    "img": "./img/gallery_slick/item_7.webp",
+    "name": "Mayze Stack",
+    "price": "90",
+    "sex": "Female",
+    "link": "https://us.puma.com/us/en/pd/mayze-stack-womens-sneakers/384363?swatch=01"
+  },
+  {
+    "id": 8,
+    "img": "./img/gallery_slick/item_8.webp",
+    "name": "Cali Dream Brushed",
+    "price": "90",
+    "sex": "Female",
+    "link": "https://us.puma.com/us/en/pd/cali-dream-brushed-suede-womens-sneakers/391466?swatch=01"
+  },
+  {
+    "id": 9,
+    "img": "./img/gallery_slick/item_9.webp",
+    "name": "LAUREN LONDON",
+    "price": "80",
+    "sex": "Female",
+    "link": "https://us.puma.com/us/en/pd/puma-x-lauren-london-suede-womens-sneakers/388058?swatch=01"
+  },
+  {
+    "id": 10,
+    "img": "./img/gallery_slick/item_10.webp",
+    "name": "Suede Classic XXI",
+    "price": "70",
+    "sex": "Male",
+    "link": "https://us.puma.com/us/en/pd/suede-classic-xxi-mens-sneakers/374915?swatch=12"
+  },
+  {
+    "id": 11,
+    "img": "./img/gallery_slick/item_11.webp",
+    "name": "MB.02",
+    "price": "130",
+    "sex": "Male",
+    "link": "https://us.puma.com/us/en/pd/mb-02-basketball-shoes/376442?swatch=01"
+  },
+  {
+    "id": 12,
+    "img": "./img/gallery_slick/item_12.webp",
+    "name": "MB.02 XII",
+    "price": "70",
+    "sex": "Male",
+    "link": "https://us.puma.com/us/en/pd/suede-classic-xxi-mens-sneakers/374915?swatch=06"
+  },
+  {
+    "id": 13,
+    "img": "./img/gallery_slick/item_13.webp",
+    "name": "Roma Basic Summer",
+    "price": "55",
+    "sex": "Kids",
+    "link": "https://us.puma.com/us/en/pd/roma-basic-summer-sneakers-big-kids/359841?swatch=21"
+  },
+  {
+    "id": 14,
+    "img": "./img/gallery_slick/item_14.webp",
+    "name": "ULTRA PRO FG/AG",
+    "price": "110",
+    "sex": "Kids",
+    "link": "https://us.puma.com/us/en/pd/ultra-pro-fg-ag-soccer-cleats-big-kids/106918?swatch=03"
+  },
+  {
+    "id": 15,
+    "img": "./img/gallery_slick/item_15.webp",
+    "name": "Rider Future Vintage",
+    "price": "65",
+    "sex": "Kids",
+    "link": "https://us.puma.com/us/en/pd/rider-future-vintage-sneakers-big-kids/386064?swatch=01"
+  },
+  {
+    "id": 16,
+    "img": "./img/gallery_slick/item_16.webp",
+    "name": "LAUREN LONDON",
+    "price": "65",
+    "sex": "Kids",
+    "link": "https://us.puma.com/us/en/pd/puma-x-lauren-london-big-kids-suede-sneakers/385813?swatch=01"
+  },
+  {
+    "id": 17,
+    "img": "./img/gallery_slick/item_17.webp",
+    "name": "POKÉMON RS-X",
+    "price": "65",
+    "sex": "Kids",
+    "link": "https://us.puma.com/us/en/pd/puma-x-pok%C3%A9mon-rs-x-pikachu-toddlers-shoes/389563?swatch=01"
+  },
+  {
+    "id": 18,
+    "img": "./img/gallery_slick/item_18.webp",
+    "name": "Suede Water Fight",
+    "price": "40",
+    "sex": "Kids",
+    "link": "https://us.puma.com/us/en/pd/suede-water-fight-toddlers-shoes/389353?swatch=02"
+  }
+]

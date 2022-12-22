@@ -1,0 +1,30 @@
+.menu-toggle__wrapper {
+    position: relative;
+    width: 40px;
+    display: block;
+
+}
+
+.menu-toggle__wrapper:before,
+.menu-toggle__wrapper:after,
+.menu-toggle__wrapper span {
+    background: $color-font-main;
+    content: "";
+    display: block;
+    height: 3px;
+    border-radius: 2px;
+    margin: 7px 0;
+    transition: 0.5s;
+}
+
+ [aria-expanded="true"] .menu-toggle__wrapper:before {
+    transform: translateY(8px) rotate(135deg);
+}
+
+ [aria-expanded="true"] .menu-toggle__wrapper:after {
+    transform: translateY(-12px) rotate(-135deg);
+}
+
+ [aria-expanded="true"] .menu-toggle__wrapper span {
+    transform: scale(0);
+}

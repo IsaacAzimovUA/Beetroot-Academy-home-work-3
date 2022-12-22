@@ -1,0 +1,49 @@
+.title {
+    font-family: $font-family-title;
+    font-weight: 600;
+    margin: 0 0 1.25rem 0;
+
+    &--bold {
+        color: rgb(var(--color-alternative));
+    }
+
+    &--center {
+        text-align: center;
+    }
+
+    &--2 {
+        font-size: 3.81rem;
+        line-height: 4.5rem;
+    }
+
+    &--3 {
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+    }
+
+    &--4 {
+        font-size: 1.38rem;
+    }
+
+    &--5 {
+        font-size: 1.25rem;
+        color: rgb(var(--color-alternative));
+    }
+
+    &--6 {
+        font-size: 1.25rem;
+        padding-bottom: 21px;
+        margin: 0;
+    }
+
+}
+
+.text {
+    line-height: 1.6rem;
+
+    &--copyright {
+        text-align: center;
+        color: rgba(26, 10, 3, 70%);
+    }
+
+}
