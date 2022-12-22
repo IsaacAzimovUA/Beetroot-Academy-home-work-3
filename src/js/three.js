@@ -16,7 +16,7 @@ export function object3d() {
 
     //Random 3d object set
 
-    const arr = [{ texture: "../three/shous_1/textures/material_0_baseColor.png", model: "../three/shous_1/scene.gltf" }, { texture: "../three/shous_2/textures/material_0_baseColor.png", model: "../three/shous_2/scene.gltf" }];
+    const arr = [{ texture: "./dist/three/shous_1/textures/material_0_baseColor.png", model: "./dist/three/shous_1/scene.gltf" }, { texture: "../three/shous_2/textures/material_0_baseColor.png", model: "../three/shous_2/scene.gltf" }];
     function getRandomItem() {
         const randomIndex = Math.floor(Math.random() * arr.length);
         const randomTexture = arr[randomIndex].texture;
